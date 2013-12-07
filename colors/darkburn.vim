@@ -89,7 +89,7 @@ hi ErrorMsg        guifg=#80d4aa guibg=#2f2f2f gui=bold
 hi Exception       guifg=#c3bf9f gui=bold
 hi Float           guifg=#c0bed1
 hi FoldColumn      guifg=#93b3a3 guibg=#3f4040
-hi Folded          guifg=#93b3a3 guibg=#3f4040
+hi Folded          guifg=#555555 guibg=bg      gui=bold
 hi Function        guifg=#efef8f
 hi Identifier      guifg=#dcdcdc
 hi IncSearch       guibg=#f8f893 guifg=#385f38
@@ -300,15 +300,15 @@ endif
     " TODO check for more obscure syntax groups that they're ok
 
 
-" Ctrlp        {{{1
+" Ctrlp    {{{1
 hi CtrlPMode1     guifg=#8cd0d3 guibg=bg
 hi CtrlPMode2     guifg=#b75151 guibg=bg
 hi CtrlPMatch     guifg=#ffb23f guibg=bg
 hi CtrlPNoEntries guifg=fg      guibg=#b75151
-hi CtrlPStats     guifg=#8cd0d3
+hi CtrlPStats     guifg=#8cd0d3 guibg=bg
+hi CtrlPPrtBase   guifg=#ccdc90 guibg=bg
 
-
-" Tagbar       {{{1
+" Tagbar   {{{1
 hi TagbarType                guifg=#313633
 hi TagbarScope               guifg=#b75151
 hi TagbarKind                guifg=#8cd0d3
@@ -317,6 +317,12 @@ hi TagbarVisibilityPublic    guifg=#ccdc90
 hi TagbarVisibilityProtected guifg=#284f28
 hi TagbarVisibilityPrivate   guifg=#b75151
 hi TagbarSignature           guifg=#ccdc90
+
+
+" CtrlSpace{{{1
+hi CtrlSpaceFound    guifg=#ffb23f
+hi CtrlSpaceSelected guifg=#DDDFB8 guibg=#284f28
+hi CtrlSpaceNormal   guifg=#555555
 
 
 " vim: set fdm=marker:
