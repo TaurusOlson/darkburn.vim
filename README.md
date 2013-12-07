@@ -18,11 +18,12 @@
 
 ## With Python
 
-![darkburn_python](https://github.com/TaurusOlson/darkburn.vim/blob/master/img/darkburn_python.png)
+![darkburn_python](https://raw.github.com/TaurusOlson/darkburn.vim/master/img/darkburn_python.png)
+
 
 ## With Clojure
 
-![darkburn_clojure](https://github.com/TaurusOlson/darkburn.vim/blob/master/img/darkburn_clojure.png)
+![darkburn_clojure](https://raw.github.com/TaurusOlson/darkburn.vim/master/img/darkburn_clojure.png)
 
 
 # Highlighting
