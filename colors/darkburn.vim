@@ -241,7 +241,7 @@ endif
 if exists("g:darkburn_high_Contrast")
     " use new darker background
     hi Normal          guifg=#ffffff guibg=#1f1f1f
-    hi CursorLine      guibg=#121212 gui=bold
+    hi CursorLine      guibg=#121212               gui=bold
     hi CursorLineNr    guifg=#ffb23f guibg=bg      gui=bold
     hi Pmenu           guibg=#242424 guifg=#ccccbc
     hi PMenuSel        guibg=#353a37 guifg=#ccdc90 gui=bold
@@ -249,9 +249,9 @@ if exists("g:darkburn_high_Contrast")
     hi PMenuThumb      guibg=#a0afa0 guifg=#040404 
     hi MatchParen      guifg=#f0f0c0 guibg=#383838 gui=bold
     hi SignColumn      guifg=#9fafaf guibg=#181818 gui=bold
-    hi TabLineFill     guifg=#cfcfaf guibg=#181818 gui=bold
+    hi TabLineFill     guifg=#cfcfaf guibg=bg      gui=bold
     hi TabLineSel      guifg=#efefef guibg=#284f28 gui=bold
-    hi TabLine         guifg=#b6bf98 guibg=#181818 gui=bold
+    hi TabLine         guifg=#b6bf98 guibg=bg      gui=bold
     hi CursorColumn    guifg=#dcdccc guibg=#2b2b2b
 
 else
@@ -307,6 +307,7 @@ hi CtrlPMatch     guifg=#ffb23f guibg=bg
 hi CtrlPNoEntries guifg=fg      guibg=#b75151
 hi CtrlPStats     guifg=#8cd0d3 guibg=bg
 hi CtrlPPrtBase   guifg=#ccdc90 guibg=bg
+
 
 " Tagbar   {{{1
 hi TagbarType                guifg=#313633
