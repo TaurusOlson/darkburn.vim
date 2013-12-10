@@ -300,7 +300,18 @@ endif
     " TODO check for more obscure syntax groups that they're ok
 
 
-" Ctrlp    {{{1
+" HTML                     {{{1
+hi htmlH1   guifg=#8cd0d3
+hi htmlH2   guifg=#ffb23f
+hi htmlH3   guifg=#f8f893
+hi htmlH4   guifg=#7f9f7f
+hi htmlH5   guifg=#cfcfaf
+hi htmlH6   guifg=#bc8cbc
+hi htmlBold   guifg=#7f9f7f
+hi htmlItalic guifg=#ccdc90
+
+
+" Ctrlp                    {{{1
 hi CtrlPMode1     guifg=#8cd0d3 guibg=bg
 hi CtrlPMode2     guifg=#b75151 guibg=bg
 hi CtrlPMatch     guifg=#ffb23f guibg=bg
@@ -309,7 +320,7 @@ hi CtrlPStats     guifg=#8cd0d3 guibg=bg
 hi CtrlPPrtBase   guifg=#ccdc90 guibg=bg
 
 
-" Tagbar   {{{1
+" Tagbar                   {{{1
 hi TagbarType                guifg=#313633
 hi TagbarScope               guifg=#b75151
 hi TagbarKind                guifg=#8cd0d3
@@ -320,10 +331,17 @@ hi TagbarVisibilityPrivate   guifg=#b75151
 hi TagbarSignature           guifg=#ccdc90
 
 
-" CtrlSpace{{{1
+" CtrlSpace                {{{1
 hi CtrlSpaceFound    guifg=#ffb23f
 hi CtrlSpaceSelected guifg=#DDDFB8 guibg=#284f28
 hi CtrlSpaceNormal   guifg=#555555
+
+
+" vim-markdown (plasticboy){{{1
+hi mkdLink     guifg=#8cd0d3 gui=underline
+hi mkdURL      guifg=#b75151
+hi mkdRule     guifg=#b75151
+hi mkdListItem guifg=#bc8cbc
 
 
 " vim: set fdm=marker:
